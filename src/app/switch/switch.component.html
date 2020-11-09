@@ -1,0 +1,15 @@
+<button 
+    (click)='actualisation()'
+    [ngStyle]="{'background-color':color}">
+    <div 
+        *ngIf="checked == false"
+        [ngStyle]="{'left':'0px'}"        
+    >
+    </div>
+    {{ text }}
+    <div 
+        *ngIf="checked == true"
+        [ngStyle]="{'right':'0px'}"        
+    >
+    </div>
+</button>

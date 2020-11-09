@@ -1,0 +1,15 @@
+div {
+    background-color: white;
+    width:15px;
+    height:15px;
+    border-radius:10px;
+    position:absolute;
+    
+}
+
+button {
+    width:100px;
+    height:35px;
+    border-radius:10px;
+    position:relative;
+}
